@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Summer Camp Registration</h2>
+        <form>
+            <label for="full_name">Full Name of Child</label>
+            <input type="text" name="full_name">
+            <div class="age-sex">
+                    <p>
+                        <label for="age">Age</label>
+                        <input type="number" name="age" min="1" max="30">
+
+                        <input type="radio" name="Male" value="Male">Male
+                        <input type="radio" name="Female" value="Female">Female
+                    </p>
+                <label for="parent_name">Full Name of Parent/Guardian</label>
+                <input type="text" name="parent_name">
+
+                <label for="email">Email</label>
+                <input type="email" name="email">
+
+                <label>Start Date of Camp</label>
+                <input type="date" placeholder="choose date" required />
+
+                <label>Preferred Activities</label>
+                <div class="pre-act">
+                    <label><input type="checkbox" /> Swimming</label>
+                    <label><input type="checkbox" /> Art</label>
+                    <label><input type="checkbox" /> Drama</label>
+                    <label><input type="checkbox" /> Soccer</label>
+                </div>
+
+                <label for="a"">Activity Level 
+                    <div class="aa">
+                        <input id="a" type="range" min="1" max="100" value="10" / >
+                    </div>
+                    </label>
+
+                <label>Medical Information</label>
+                <textarea placeholder="..."></textarea>
+
+                <label>Upload Photo of Child</label>
+                <input type="file" placeholder="" />
+
+                <div class="buttons">
+                    <button type="submit"> Submit</button>
+                    <button type="reset"> Reset</button>
+                </div>
+
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>
