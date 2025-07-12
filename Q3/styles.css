@@ -55,6 +55,7 @@
     }
     .pre-act {
             width: 276px;
+            display: flex;
     }
     input[type="range"]{
             height: 3px;
